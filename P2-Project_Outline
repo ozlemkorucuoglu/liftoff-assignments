@@ -1,18 +1,27 @@
-# Project Outline
-For this assignment, you will submit a high-level outline of your project. This can, and likely will, change over time. In particular, your mentor will provide direction and feedback to help sharpen your ideas. So don't worry if you feel unsure about some aspects of the outline or if you have to change some things later.
+### PROJECT NAME: SCIENTIFIC REVISION TOOLBOX
 
-## Assignment Description
-[Project Outline Assignment](https://education.launchcode.org/liftoff/modules/assignments/project-outline)
 
-## Submission Instructions
+### OVERVIEW: 
+The intended user for this toolbox (or app) is going to be people working in academia and routinely submit scientific articles to journals with peer-reviews and need to revise a manuscript after receiving a revision. In almost all cases, this task requires preparing a so called ‘Response Letter’, which always have the same format. The goal of this online application is (1) to automatize the formatting of the letter for the user to save time, (2) enable easy communication among co-authors who need to work on the same response letter as the lead author, 
 
-### Overview
-Include overview here
-### Features
-Include Features here
-### Technologies
-Include Technologies here
-### What I'll Have to Learn
-Include what you will need to learn here
-### Project Tracker
-Link to your Trello board here
+The brief description of the application is follows: For each manuscript the author can create a new project. After receiving an email from the Journal with reviewer’s responses, lead author will copy paste these responses to the app. First task of the app is to automatically recognize each comment in this text, create a template for the response letter. However this recognition may not work perfectly in all cases, therefore the user will have the chance to over the template and manually correct parts. After the lead author finishes first draft, co-authors will be informed with an email notification. At this point lead author can upload other supplementary materials to the app, which will be accessible to all co-authors. At this point they can log in and review the letter and make adjustments. Adjustments made by each co-author will be tracked changed. The app will allow only one person to work on the document at a time (no more than one user from a specific project can be logged in, if no activity detected in the last 1 hr, the user will be automatically logged out etc.). The lead author will be notified when a co-author finalizes their version. Other co-authors will be able to see the changes made by other-coauthors as well. 
+
+In my current job, I do go through the process of revision many times. I believe at this point such an app does not exist since I have never heard any of my colleagues mentioning this. The revision process itself takes a lot of time but some of this time can be regained by automatizing certain aspects of it. Also having a platform that all authors can work together provides an advantage by eliminating unnecessary emails between authors, and already creating a workflow for each co-author.     
+
+### FEATURES: 
+o	Multiple Projects: with overlapping users
+o	User login: Users will be able to create accounts and log in to the application. 
+o	Document Sharing: Each person being able to modify the same document, with track changes.
+o	Upload: Possibility to provide supplemental material relevant to the work. 
+o	Notifications: Email notifications for each task completed. 
+
+### TECHNOLOGIES: 
+o	Python
+o	Flask
+o	MySQL
+o	SQLAlchemy
+o	Jinja2 templates
+
+### What you’ll have to learn: Some of the technologies that I need to learn is (1) track each users current status, modify permissions to log in based on that, and how to keep track of time of no activity on web for automatic log out option, (2) pattern recognition in text, (3) how to apply track changes to an online document, (4) how to send email notifications.
+### Project Tracker: Link to your Trello board here.
+
