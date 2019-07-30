@@ -21,7 +21,7 @@ o	Flask
 o	MySQL
 o	SQLAlchemy
 o	Jinja2 templates
+o	Docx4j
 
 ### What you’ll have to learn: Some of the technologies that I need to learn is (1) track each users current status, modify permissions to log in based on that, and how to keep track of time of no activity on web for automatic log out option, (2) pattern recognition in text, (3) how to apply track changes to an online document, (4) how to send email notifications.
-### Project Tracker: Link to your Trello board here.
-
+### Project Tracker: https://trello.com/invite/b/7ost7E1N/f32c4180107660a084a02c10a8236eec/scientificrevisiontoolbox
